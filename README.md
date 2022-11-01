@@ -1,2 +1,2 @@
-# algorithmization-in-cpp
-Basics of algorithmization in C++
+# Basics of algorithmization in C++
+Second semester of algorithmization
