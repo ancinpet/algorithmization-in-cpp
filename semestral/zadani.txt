@@ -1,0 +1,22 @@
+File - souborový informátor
+
+Nástroj pro zjišťování informací o souborech a adresářích v zadaném adresáří.
+
+Implementujte následující funcionalitu:
+informace o souborech
+zobrazit hierarchii souborů v adresářích
+možnost vyhledávat podle typu souboru
+
+Informace o souborech:
+čas vytvoření/modifikace, velikost, přístupová práva, formát souboru (jpeg, png, text, binární, zvuk, ...)
+u jednotlivých formátů mít specifické informace (například u obrázků rozlišení nebo u textu počet slov)
+
+Jak by měl program fungovat:
+Program bude konzolová aplikace, bude se umět pohybovat ve file systému pomocí příkazu cd.
+Program bude mít příkaz help, který vypíše vše co umí a syntax. Program se bude ukončovat zadáním exit do konzole.
+Program bude umět zjistit velikost souboru nebo celé složky, bude umět zobrazit přístupové práva, čas modifikace.
+Program bude umět vypsat formát souboru a zapamatovat si ho a později vypsat podrobnější informace o všech souborech
+které si zapamatoval, tato pamět by měla jít vymazat a znovu plnit. Dále by měl umět vypsat hezky formátovanou
+hierarchii souborů ve složce až do dané hloubky a také by měl umět hledat formát souboru ve složce až do dané hloubky.
+Program si bude pamatovat příkazy, které jsou specifické (kde záleží na složce nebo nějaké jiné věci která se lidem
+nechce pamatovat) a poté bude schopen tuto historii příkazů vypsat a volat jednotlivé příkazy podle indexu.
